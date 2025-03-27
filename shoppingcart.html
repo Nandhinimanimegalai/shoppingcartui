@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My shopping cart</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="shoppingcart.css">
+    </head>
+    <body>
+        <div class="cart-page">
+            <!-- Top Bar Section -->
+            <div class="topbar">
+                <i class="fa-solid fa-cart-shopping" style="font-size: 24px;"></i>
+               <span style="font-size: 24px;">MY SHOPPING CART</span> 
+            </div>
+            <!-- cart item table -->
+                <table>
+                    <thead>
+                    <tr>
+                        <th>PRODUCT</th>
+                        <th>QUANTITY</th>
+                        <th>PRICE</th>
+                        <th>SUBTOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Know Your Onions:Web Design</strong><br>
+                        <span class="author"> by Drew de Soto</span></td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹13.46</td>
+                        <td>₹13.46</td>
+                        <td class="remove"><i class="fa-solid fa-xmark" style="color: #ec0909;"></i></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Thinking with Type </strong><br>
+                        <span class="author">by Ellen Lupton</span></td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹14.88</td>
+                        <td>₹14.88</td>
+                        <td class="remove"><i class="fa-solid fa-xmark" style="color: #ec0909;"></i></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Universal Principles of Design</strong>
+                        <br><span class="author">by William and Kritinal Holden</span></td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹15.90</td>
+                        <td>₹15.90</td>
+                        <td class="remove"><i class="fa-solid fa-xmark" style="color: #ec0909;"></i></td>
+                    </tr>
+                </tbody>
+                </table>
+            
+            <!-- total section -->
+            <div class="totaldisplay">
+                <span class="total">TOTAL</span>
+                <span class="amount">₹44.24</span> 
+            </div>
+            <!-- bottom section -->
+            <div class="bottomsec">
+                <button>BACK TO SHOPPING</button>
+                <button>RECALCULATE</button>
+                <button class="proceed">PROCEED</button>
+            </div>
+        </div>
+    </body>
+
+</html>
